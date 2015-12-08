@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:layout_height="match_parent"
+    tools:context="devf.ejemploeventbus.MainActivity">
+
+    <fragment
+        android:id="@+id/fragment_one"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:name="devf.ejemploeventbus.OneFragment"
+        android:layout_weight="1"
+        tools:layout="@layout/fragment_one" />
+    <fragment
+        android:id="@+id/fragment_two"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:name="devf.ejemploeventbus.TwoFragment"
+        android:layout_weight="1"
+        tools:layout="@layout/fragment_two" />
+
+
+</LinearLayout>
